@@ -11,7 +11,8 @@ function App() {
 
   useLayoutEffect(() => {
     const canvas = document.getElementById("canvas");
-    const ctx = canvas.getContext("2d");
+    const context = canvas.getContext("2d");
+    context.clearRect(0, 0, canvas.width, canvas.height);
 
     const roughCanvas = rough.canvas(canvas);
     const rect = generator.rectangle(10, 10, 100, 100);
