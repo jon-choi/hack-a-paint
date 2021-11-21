@@ -58,7 +58,9 @@ export default function Editor() {
         {buttonText}
       </button>
 
-      <CirclePicker color={selectedColor} onChangeComplete={changeColor} />
+      {hideOptions && (
+        <CirclePicker color={selectedColor} onChangeComplete={changeColor} />
+      )}
     </div>
   );
 }
