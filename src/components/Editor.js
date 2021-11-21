@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { CirclePicker } from "react-color";
 
 import "../styles/editor.scss";
 
