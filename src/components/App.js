@@ -16,7 +16,7 @@ function App() {
   const [elements, setElements] = useState([]);
 
   const [drawing, setDrawing] = useState(false);
-  const [elementType, setElementType] = useState("line");
+  const [tool, setTool] = useState("line");
 
   useLayoutEffect(() => {
     const canvas = document.getElementById("canvas");
@@ -33,13 +33,7 @@ function App() {
 
     const { clientX, clientY } = event;
 
-    const element = createElement(
-      clientX,
-      clientY,
-      clientX,
-      clientY,
-      elementType
-    );
+    const element = createElement(clientX, clientY, clientX, clientY, tool);
     setElements((prevState) => [...prevState, element]);
   };
 
@@ -49,7 +43,7 @@ function App() {
     const { clientX, clientY } = event;
     const index = elements.length - 1;
     const { x1, y1 } = elements[index];
-    const updatedElement = createElement(x1, y1, clientX, clientY, elementType);
+    const updatedElement = createElement(x1, y1, clientX, clientY, tool);
 
     const elementsCopy = [...elements];
     elementsCopy[index] = updatedElement;
@@ -65,16 +59,23 @@ function App() {
       <div style={{ position: "fixed" }}>
         <input
           type="radio"
+          id="selection"
+          checked={tool === "selection"}
+          onChange={() => setTool("selection")}
+        />
+        <label htmlFor="line">Line</label>
+        <input
+          type="radio"
           id="line"
-          checked={elementType === "line"}
-          onChange={() => setElementType("line")}
+          checked={tool === "line"}
+          onChange={() => setTool("line")}
         />
         <label htmlFor="line">Line</label>
         <input
           type="radio"
           id="rectangle"
-          checked={elementType === "rectangle"}
-          onChange={() => setElementType("rectangle")}
+          checked={tool === "rectangle"}
+          onChange={() => setTool("rectangle")}
         />
         <label htmlFor="rectangle">Rectangle</label>
       </div>
