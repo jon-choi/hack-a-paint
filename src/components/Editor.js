@@ -10,10 +10,19 @@ export default function Editor() {
   const [buttonText, setButtonText] = useState("start drawing");
   const [selectedColor, setSelectedColor] = useState("#f44336");
 
+  function initializeDrawingPanel() {
+    setHideOptions(!hideOptions);
+    setHideDrawingPanel(!hideDrawingPanel);
+
+    buttonText === "start drawing"
+      ? setButtonText("reset")
+      : setButtonText("start drawing");
+  }
+
   return (
     <div id="editor">
       <h1>PixelPaint</h1>
-      <h2>Enter Dimensions</h2>
+      {hideDrawingPanel && <h2>Enter Dimensions</h2>}
       <div id="options">
         <div className="option">
           <input
@@ -38,7 +47,9 @@ export default function Editor() {
           <span>Height</span>
         </div>
       </div>
-      <button className="button">{buttonText}</button>
+      <button onClick={initializeDrawingPanel} className="button">
+        {buttonText}
+      </button>
     </div>
   );
 }
