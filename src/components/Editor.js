@@ -23,30 +23,32 @@ export default function Editor() {
     <div id="editor">
       <h1>PixelPaint</h1>
       {hideDrawingPanel && <h2>Enter Dimensions</h2>}
-      <div id="options">
-        <div className="option">
-          <input
-            type="number"
-            className="PanelInput"
-            defaultValue={panelWidth}
-            onChange={(e) => {
-              setPanelWidth(e.target.value);
-            }}
-          />
-          <span>Width</span>
+      {hideDrawingPanel && (
+        <div id="options">
+          <div className="option">
+            <input
+              type="number"
+              className="panelInput"
+              defaultValue={panelWidth}
+              onChange={(e) => {
+                setPanelWidth(e.target.value);
+              }}
+            />
+            <span>Width</span>
+          </div>
+          <div className="option">
+            <input
+              type="number"
+              className="panelInput"
+              defaultValue={panelHeight}
+              onChange={(e) => {
+                setPanelHeight(e.target.value);
+              }}
+            />
+            <span>Height</span>
+          </div>
         </div>
-        <div className="option">
-          <input
-            type="number"
-            className="PanelInput"
-            defaultValue={panelHeight}
-            onChange={(e) => {
-              setPanelHeight(e.target.value);
-            }}
-          />
-          <span>Height</span>
-        </div>
-      </div>
+      )}
       <button onClick={initializeDrawingPanel} className="button">
         {buttonText}
       </button>
