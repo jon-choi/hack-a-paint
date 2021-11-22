@@ -13,7 +13,8 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
-            <em>“Simplicity is the soul of efficiency.”</em> – Austin Freeman
+            <em>“Art has to keep moving and discovering to stay alive”</em> –
+            Bill Waterson
           </Slogan>
         </CompanyContainer>
         <CompanyContainer>
