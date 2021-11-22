@@ -62,7 +62,11 @@ export default function Editor() {
         <CirclePicker color={selectedColor} onChangeComplete={changeColor} />
       )}
 
-      <DrawingPanel />
+      <DrawingPanel
+        width={panelWidth}
+        height={panelHeight}
+        selectedColor={selectedColor}
+      />
     </div>
   );
 }
