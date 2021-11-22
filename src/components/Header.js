@@ -18,7 +18,7 @@ const Header = () => {
             marginLeft: "10px",
           }}
         >
-          Pixe-Paint
+          Pixa-Paint
         </Span>
       </Div1>
       <Div3>

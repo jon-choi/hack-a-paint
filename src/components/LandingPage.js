@@ -7,18 +7,21 @@ const LandingPage = () => {
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
         <h1 className="gradient__text">
-          Welcome to the wonderful world of Pixe-Paint!
+          Welcome to the wonderful world of Pixa-Paint!
         </h1>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing. Not
-          thoughts all exercise blessing. Indulgence way everything joy
-          alteration boisterous the attachment. Party we years to order allow
-          asked of.
+          Create anything your heart desires! <br />
+          1. Choose your dimensions (Go as big or small as you want)
+          <br />
+          2. Pick a colour and start clicking on the canvas! <br />
+          3. Choosing a different colour and clicking over an existing one will
+          be replaced with the new colour!
         </p>
 
         <div className="gpt3__header-content__input">
-          <input type="email" placeholder="Your Email Address" />
-          <button type="button">Get Started</button>
+          <button type="button">
+            <Link to="/editor">Get Started</Link>
+          </button>
         </div>
 
         <div className="gpt3__header-content__people">
@@ -27,7 +30,12 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className="gpt3__header-image">{/* <img src={ai} /> */} sup</div>
+      <div className="gpt3__header-image">
+        <img
+          alt="pixel"
+          src="https://i.pinimg.com/originals/2a/55/d3/2a55d31b740c0db49d309b086a4e40c6.gif"
+        />
+      </div>
     </div>
   );
 };

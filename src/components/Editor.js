@@ -30,7 +30,7 @@ export default function Editor() {
     <div>
       <Header />
       <div id="editor">
-        <h1>Welcome to Pixe-Paint!</h1>
+        <h1>Welcome to Pixa-Paint!</h1>
         {hideDrawingPanel && <h2>Enter dimensions to get started</h2>}
         {hideDrawingPanel && (
           <div id="options">
