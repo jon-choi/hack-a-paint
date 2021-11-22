@@ -15,6 +15,7 @@ const Header = () => {
             alignItems: "center",
             color: "white",
             marginBottom: "20px",
+            marginLeft: "10px",
           }}
         >
           Pixe-Paint
