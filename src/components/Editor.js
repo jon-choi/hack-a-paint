@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { CirclePicker } from "react-color";
-
+import DrawingPanel from "./DrawingPanel";
 import "../styles/editor.scss";
 
 export default function Editor() {
@@ -61,6 +61,8 @@ export default function Editor() {
       {hideOptions && (
         <CirclePicker color={selectedColor} onChangeComplete={changeColor} />
       )}
+
+      <DrawingPanel />
     </div>
   );
 }
