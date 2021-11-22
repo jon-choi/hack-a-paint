@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { FaPaintBrush } from "react-icons/fa";
+import { RiPaintFill } from "react-icons/ri";
 
 import { Container, Div3, Span, Div1, SocialIcons } from "./HeaderStyles";
 
@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <Container>
       <Div1>
-        <FaPaintBrush size="4rem" />
+        <RiPaintFill size="3rem" />
         <Span
           style={{
             display: "flex",
