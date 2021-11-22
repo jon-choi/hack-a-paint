@@ -8,5 +8,7 @@ export default function Pixel(props) {
   const [oldColor, setOldColor] = useState(pixelColor);
   const [canChangeColor, setCanChangeColor] = useState(true);
 
-  return <div className="pixel"></div>;
+  function applyColor()
+
+  return <div className="pixel" onClick={applyColor} onMouseEnter={changeColorOnHover} onMouseLeave={reset} style={{ backgroundColor: pixelColor }}></div>;
 }
