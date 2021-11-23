@@ -3,6 +3,10 @@
 This is a front-end pixel painting application built with React. A project for the Mintbean Hackathon November 2021. 
 Paint anything you'd like to and save it when you're finished! Have fun! :)
 
+## Creator
+
+Jonathan Choi [GitHub](https://github.com/jon-choi) [Linkedin](https://www.linkedin.com/in/jonathan-choi-0502/)
+
 
 
 ## Deployed Version
