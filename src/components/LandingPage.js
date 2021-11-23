@@ -19,17 +19,70 @@ const LandingPage = () => {
               <Link to="/editor">Get Started</Link>
             </button>
           </div>
-          <br />
-          1. Choose your dimensions (Go as big or small as you want) then click
-          on 'Start Drawing'.
-          <br />
-          2. Pick a colour and start clicking on the canvas! <br />
-          3. Choosing a different colour and clicking over an existing one will
-          be replaced with the new colour! <br />
-          4. Want to start over? Just click on 'Reset'! <br />
-          5. When you're all finished, just click on 'Export' to download your
-          completed painting! <br />
-          6. Have fun!
+          <h1>Walkthrough ⬇️</h1>
+          <section id="demo-1">
+            <div className="demo">
+              <h3>
+                1. Choose your dimensions (Go as big or small as you want) then
+                click on 'Start Drawing'
+              </h3>
+              <img
+                src="images/dimension-demo.gif"
+                className="gif"
+                alt="demo"
+                width="500px"
+              />
+            </div>
+          </section>
+          <section id="demo-2">
+            <div className="demo B">
+              <h3>
+                2. Pick a colour and start clicking on the canvas! Choosing a
+                different colour and clicking over an existing one will be
+                replaced with the new colour!
+              </h3>
+              <img
+                src="images/colour-demo.gif"
+                className="gif"
+                alt="demo"
+                width="500px"
+              />
+            </div>
+          </section>
+          <section id="demo-3">
+            <div className="demo">
+              <h3>3. Want to start over? Just click on 'Reset'! </h3>
+              <img
+                src="images/reset-demo.gif"
+                className="gif"
+                alt="demo"
+                width="500px"
+              />
+            </div>
+          </section>
+          <section id="demo-4">
+            <div className="demo B">
+              <h3>
+                4. Click on 'Export as PNG' to download your new masterpiece!
+              </h3>
+              <img
+                src="images/export-demo.gif"
+                className="gif"
+                alt="demo"
+                width="500px"
+              />
+            </div>
+          </section>
+          <section id="demo-5">
+            <div className="demo">
+              <h3>5. Have fun!</h3>
+              <div className="gpt3__header-content__input">
+                <button id="get-started">
+                  <a href="/editor">Get Started</a>
+                </button>
+              </div>
+            </div>
+          </section>
         </p>
 
         <div className="gpt3__header-content__people">
