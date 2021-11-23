@@ -80,7 +80,7 @@ const LandingPage = () => {
             <div className="demo">
               <h3>5. Have fun!</h3>
               <div className="gpt3__header-content__input">
-                <button id="get-started">
+                <button type="button">
                   <Link to="/editor">Get Started</Link>
                 </button>
               </div>
