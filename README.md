@@ -12,8 +12,10 @@ Jonathan Choi [GitHub](https://github.com/jon-choi) [Linkedin](https://www.linke
 ## Deployed Version
 
 The deployed version of the website can be found [Here](https://mintbean-pixapaint.netlify.app).
+
 ## Development Mode
 
+Clone the project and run `npm install` to install dependencies.
 To run the app in development mode simply run `npm start`
 
 ## Dependencies
