@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/landingPage.scss";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaHtml5 } from "react-icons/fa";
 
 import { SocialIcons } from "./HeaderStyles";
 
@@ -46,6 +46,7 @@ const LandingPage = () => {
             Website built with:{" "}
           </p>
           <FaReact size="3rem" />
+          <FaHtml5 size="3rem" />
         </div>
       </div>
 
