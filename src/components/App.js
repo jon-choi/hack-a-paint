@@ -17,5 +17,3 @@ function App() {
 }
 
 export default App;
-
-// TODO: Build a nice landing page
