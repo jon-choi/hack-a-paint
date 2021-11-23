@@ -78,7 +78,9 @@ const LandingPage = () => {
               <h3>5. Have fun!</h3>
               <div className="gpt3__header-content__input">
                 <button id="get-started">
-                  <a href="/editor">Get Started</a>
+                  <a passHref href="/editor">
+                    Get Started
+                  </a>
                 </button>
               </div>
             </div>
