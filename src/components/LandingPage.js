@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/landingPage.scss";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { FaReact } from "react-icons/fa";
 
 import { SocialIcons } from "./HeaderStyles";
 
@@ -41,6 +42,10 @@ const LandingPage = () => {
           <SocialIcons href="https://www.linkedin.com/in/jonathan-choi-0502/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
+          <p style={{ marginLeft: "1px", marginRight: "7px" }}>
+            Website built with:{" "}
+          </p>
+          <FaReact size="3rem" />
         </div>
       </div>
 
