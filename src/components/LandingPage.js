@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/landingPage.scss";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+
+import { SocialIcons } from "./HeaderStyles";
 
 const LandingPage = () => {
   return (
@@ -31,6 +34,12 @@ const LandingPage = () => {
         <div className="gpt3__header-content__people">
           <img alt="profile" src="images/Profile.jpeg" />
           <p>Meet the Dev!</p>
+          <SocialIcons href="https://github.com/jon-choi">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.linkedin.com/in/jonathan-choi-0502/">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
         </div>
       </div>
 
