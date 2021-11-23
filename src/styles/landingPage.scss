@@ -11,6 +11,7 @@
   flex-direction: column;
 
   margin-right: 5rem;
+  margin-left: 5rem;
 }
 
 .gpt3__header-content h1 {
@@ -84,7 +85,7 @@
   align-items: center;
   flex-direction: row;
 
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 
 .gpt3__header-content__people img {
@@ -114,8 +115,9 @@
 
 .gpt3__header-image img {
   width: 30%;
-  border-radius: 210px;
+  border-radius: 120px;
   position: fixed;
+  margin-right: 20px;
 }
 
 .demo {
@@ -133,7 +135,7 @@
   margin-right: 8%;
   margin-left: 8%;
   margin-bottom: 80px;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 #demo-2 {

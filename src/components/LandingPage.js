@@ -36,11 +36,11 @@ const LandingPage = () => {
           </section>
           <section id="demo-2">
             <div className="demo B">
-              <h3>
+              <h4>
                 2. Pick a colour and start clicking on the canvas! Choosing a
                 different colour and clicking over an existing one will be
                 replaced with the new colour!
-              </h3>
+              </h4>
               <img
                 src="images/colour-demo.gif"
                 className="gif"
