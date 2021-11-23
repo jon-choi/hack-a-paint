@@ -1,16 +1,16 @@
 .gpt3__header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .gpt3__header-content {
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 
-  margin-right: 5rem;
   margin-left: 5rem;
 }
 
@@ -19,6 +19,8 @@
   font-size: 69px;
   line-height: 75px;
   letter-spacing: -0.04em;
+  justify-content: center;
+  align-items: center;
 }
 
 .gpt3__header-content p {
@@ -112,21 +114,22 @@
   justify-content: center;
   align-items: center;
   margin-top: 1px;
-  margin-bottom: 1600px;
+  margin-bottom: 10px;
   margin-right: 60px;
 }
 
 .gpt3__header-image img {
-  width: 35%;
-  border-radius: 120px;
-  position: fixed;
+  width: 60%;
+  border-radius: 100px;
 }
 
 .demo {
   display: flex;
+  align-items: center;
   justify-content: center;
-  padding-right: 20px;
+  padding-right: 90px;
   margin-left: 5px;
+  justify-content: space-evenly;
   
 }
 .B {
@@ -135,7 +138,7 @@
 
 #demo-1 {
   margin-right: 8%;
-  margin-left: 8%;
+  margin-left: 20%;
   margin-bottom: 80px;
   margin-top: 80px;
 }
@@ -160,7 +163,7 @@
 
 #demo-5 {
   margin-right: 8%;
-  margin-left: 8%;
+  margin-left: 30%;
   margin-bottom: 10px;
 }
 

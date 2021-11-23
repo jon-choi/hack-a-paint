@@ -11,6 +11,9 @@ const LandingPage = () => {
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
         <h1>Welcome to the wonderful world of Pixa-Paint!</h1>
+        <div className="gpt3__header-image">
+          <img alt="pixel" src="images/pixel-art.gif" />
+        </div>
         <p>
           Unleash your creativity with Pixa-Paint! Paint, save, and show your
           friends!
@@ -100,10 +103,6 @@ const LandingPage = () => {
           <FaReact size="3rem" />
           <FaHtml5 size="3rem" />
         </div>
-      </div>
-
-      <div className="gpt3__header-image">
-        <img alt="pixel" src="images/pixel-art.gif" />
       </div>
     </div>
   );
