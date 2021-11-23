@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <Container>
       <Div1>
-        <Link to="/">
+        <Link to="/" style={{ color: "#f05454" }}>
           <RiPaintFill size="3rem" />
           <Span
             style={{
