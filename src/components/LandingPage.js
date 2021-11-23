@@ -11,11 +11,15 @@ const LandingPage = () => {
         </h1>
         <p>
           Create anything your heart desires! <br />
-          1. Choose your dimensions (Go as big or small as you want)
+          1. Choose your dimensions (Go as big or small as you want) then click
+          on 'Start Drawing'.
           <br />
           2. Pick a colour and start clicking on the canvas! <br />
           3. Choosing a different colour and clicking over an existing one will
-          be replaced with the new colour!
+          be replaced with the new colour! <br />
+          4. Want to start over? Just click on 'Reset'! <br />
+          5. When you're all finished, just click on 'Export' to download your
+          completed painting!
         </p>
 
         <div className="gpt3__header-content__input">
@@ -25,16 +29,13 @@ const LandingPage = () => {
         </div>
 
         <div className="gpt3__header-content__people">
-          {/* <img src={people} /> */}
-          <p>1,600 people requested access a visit in last 24 hours</p>
+          <img alt="profile" src="images/Profile.jpeg" />
+          <p>Meet the Dev!</p>
         </div>
       </div>
 
       <div className="gpt3__header-image">
-        <img
-          alt="pixel"
-          src="https://i.pinimg.com/originals/2a/55/d3/2a55d31b740c0db49d309b086a4e40c6.gif"
-        />
+        <img alt="pixel" src="images/pixel-art.gif" />
       </div>
     </div>
   );
