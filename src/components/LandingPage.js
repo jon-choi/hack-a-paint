@@ -22,7 +22,8 @@ const LandingPage = () => {
           be replaced with the new colour! <br />
           4. Want to start over? Just click on 'Reset'! <br />
           5. When you're all finished, just click on 'Export' to download your
-          completed painting!
+          completed painting! <br />
+          6. Have fun!
         </p>
 
         <div className="gpt3__header-content__input">
