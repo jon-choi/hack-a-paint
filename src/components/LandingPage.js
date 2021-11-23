@@ -9,11 +9,11 @@ const LandingPage = () => {
   return (
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
-        <h1 className="gradient__text">
-          Welcome to the wonderful world of Pixa-Paint!
-        </h1>
+        <h1>Welcome to the wonderful world of Pixa-Paint!</h1>
         <p>
-          Create anything your heart desires! <br />
+          Unleash your creativity with Pixa-Paint! Paint, save, and show your
+          friends!
+          <br />
           1. Choose your dimensions (Go as big or small as you want) then click
           on 'Start Drawing'.
           <br />
