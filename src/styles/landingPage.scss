@@ -86,12 +86,14 @@
   flex-direction: row;
 
   margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .gpt3__header-content__people img {
-  width: 150px;
-  border-radius: 100px;
+  width: 130px;
+  border-radius: 90px;
   margin-left: 50px;
+  
 }
 
 .gpt3__header-content__people p {
@@ -111,13 +113,13 @@
   align-items: center;
   margin-top: 1px;
   margin-bottom: 1800px;
+  margin-right: 60px;
 }
 
 .gpt3__header-image img {
   width: 30%;
   border-radius: 120px;
   position: fixed;
-  margin-right: 20px;
 }
 
 .demo {
