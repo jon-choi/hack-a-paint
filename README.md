@@ -12,4 +12,7 @@ The deployed version of the website can be found [Here](https://mintbean-pixapai
 
 To run the app in development mode simply run `npm start`
 
-## Screenshots
+## Demo
+
+        Demo of the final product
+![Demo](https://github.com/jon-choi/hack-a-paint/blob/master/docs/paint-demo.gif?raw=true)
