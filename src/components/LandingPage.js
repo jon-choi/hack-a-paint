@@ -37,7 +37,7 @@ const LandingPage = () => {
           <section id="demo-2">
             <div className="demo B">
               <h4>
-                2. Pick a colour and start clicking on the canvas! Choosing a
+                2. Pick a colour and start clicking on the canvas. Choosing a
                 different colour and clicking over an existing one will be
                 replaced with the new colour!
               </h4>
@@ -51,7 +51,7 @@ const LandingPage = () => {
           </section>
           <section id="demo-3">
             <div className="demo">
-              <h3>3. Want to start over? Just click on 'Reset'! </h3>
+              <h3>3. Want to start over? Just click on 'Reset'</h3>
               <img
                 src="images/reset-demo.gif"
                 className="gif"
