@@ -14,6 +14,11 @@ const LandingPage = () => {
         <p>
           Unleash your creativity with Pixa-Paint! Paint, save, and show your
           friends!
+          <div className="gpt3__header-content__input">
+            <button type="button">
+              <Link to="/editor">Get Started</Link>
+            </button>
+          </div>
           <br />
           1. Choose your dimensions (Go as big or small as you want) then click
           on 'Start Drawing'.
@@ -26,12 +31,6 @@ const LandingPage = () => {
           completed painting! <br />
           6. Have fun!
         </p>
-
-        <div className="gpt3__header-content__input">
-          <button type="button">
-            <Link to="/editor">Get Started</Link>
-          </button>
-        </div>
 
         <div className="gpt3__header-content__people">
           <img alt="profile" src="images/Profile.jpeg" />
