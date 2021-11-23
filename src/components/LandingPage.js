@@ -45,7 +45,7 @@ const LandingPage = () => {
                 src="images/colour-demo.gif"
                 className="gif"
                 alt="demo"
-                width="500px"
+                width="450px"
               />
             </div>
           </section>
