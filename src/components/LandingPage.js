@@ -12,7 +12,7 @@ const LandingPage = () => {
       <div className="gpt3__header-content">
         <h1>Welcome to the wonderful world of Pixa-Paint!</h1>
         <div className="gpt3__header-image">
-          <img alt="pixel" src="images/pixel-art.gif" />
+          <img alt="pixel" src="images/pixel-world.gif" />
         </div>
         <p>
           Unleash your creativity with Pixa-Paint! Paint, save, and show your
@@ -39,16 +39,16 @@ const LandingPage = () => {
           </section>
           <section id="demo-2">
             <div className="demo B">
-              <h4>
+              <h3>
                 2. Pick a colour and start clicking on the canvas. Choosing a
                 different colour and clicking over an existing one will be
                 replaced with the new colour!
-              </h4>
+              </h3>
               <img
                 src="images/colour-demo.gif"
                 className="gif"
                 alt="demo"
-                width="450px"
+                width="500px"
               />
             </div>
           </section>
