@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/landingPage.scss";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { FaReact, FaHtml5 } from "react-icons/fa";
+import { DiCss3Full } from "react-icons/di";
 
 import { SocialIcons } from "./HeaderStyles";
 
@@ -102,6 +103,7 @@ const LandingPage = () => {
           </p>
           <FaReact size="3rem" />
           <FaHtml5 size="3rem" />
+          <DiCss3Full size="3rem" />
         </div>
       </div>
     </div>
