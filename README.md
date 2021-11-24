@@ -11,17 +11,21 @@ Jonathan Choi [GitHub](https://github.com/jon-choi) [Linkedin](https://www.linke
 
 ## Deployed Version
 
-The deployed version of the website can be found [Here](https://mintbean-pixapaint.netlify.app).
+The deployed version of the website can be found [here](https://mintbean-pixapaint.netlify.app).
 
 ## Development Mode
 
-Clone the project and run `npm install` to install dependencies.
-To run the app in development mode simply run `npm start`
+If you'd like to run the app in development mode, clone the project and run `npm install` to install dependencies.
+Once all dependencies have been installed, simply run `npm start` to run the project. 
 
 ## Dependencies
 
 - React
+- React Router
 - Styled Components
+- JavaScript
+- HTML
+- CSS
 
 ## Demo
 
